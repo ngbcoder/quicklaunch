@@ -16,7 +16,7 @@ Raycast-style command launcher for Linux (KDE Plasma / Wayland first). Design de
 - [x] Create Todo.md milestone checklist (this file)
 - [x] Add .gitignore and README.md
 - [x] Init git repo (`main` branch)
-- [!] Install `github-cli` (needs `sudo pacman -S github-cli`) — blocked: sudo password required
+- [x] Install `github-cli` (needs `sudo pacman -S github-cli`)
 - [ ] `gh auth login` (user, interactive)
 - [ ] Set global git identity from GitHub account name + noreply email
 - [ ] Create public GitHub repo (`ngbcoder/quicklaunch` or account default) and push
