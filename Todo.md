@@ -20,6 +20,7 @@ Raycast-style command launcher for Linux (KDE Plasma / Wayland first). Design de
 - [x] `gh auth login` (user, interactive)
 - [x] Set global git identity from GitHub account name + noreply email
 - [x] Create public GitHub repo (`ngbcoder/quicklaunch`) and push
+- [x] Add minimal `main` package so CI has a build target
 - [ ] Add GitHub Actions CI (vet, test, build with X11/Wayland dev packages)
 
 ## M1 — Hotkey spike (de-risk, highest-risk item first)
