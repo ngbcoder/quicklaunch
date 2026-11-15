@@ -24,9 +24,9 @@ Raycast-style command launcher for Linux (KDE Plasma / Wayland first). Design de
 - [x] Add GitHub Actions CI (vet, test, build with X11/Wayland dev packages)
 
 ## M1 — Hotkey spike (de-risk, highest-risk item first)
-- [ ] Research KGlobalAccel D-Bus API; write `docs/kglobalaccel-notes.md`
-- [ ] Spike: register Ctrl+Shift+Space via D-Bus from Go, verify invocation signal fires
-- [ ] Record decision: raw KGlobalAccel vs. KDE custom shortcut + `--toggle` fallback
+- [x] Research KGlobalAccel D-Bus API; write `docs/kglobalaccel-notes.md`
+- [x] Spike: register Ctrl+Shift+Space via D-Bus from Go, verify invocation signal fires
+- [x] Record decision: raw KGlobalAccel works on Plasma 6.8 (no fallback needed)
 
 ## M2 — Desktop entry parser
 - [ ] Define `Entry` struct + grammar types
