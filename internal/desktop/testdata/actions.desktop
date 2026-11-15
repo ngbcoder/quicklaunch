@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Name=Editor
+Exec=editor %U
+Icon=org.example.editor
+Actions=new-window;private-window;
+
+[Desktop Action new-window]
+Name=New Window
+Name[de]=Neues Fenster
+Exec=editor --new-window %U
+Icon=document-new
+
+[Desktop Action private-window]
+Name=Private Window
+Exec=editor --private %U
+
+[Desktop Entry Extra]
+Name=Ignored

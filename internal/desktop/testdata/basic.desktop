@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=Firefox
+Name[de]=Feuerfuchs
+Name[de_DE]=Mozilla Feuerfuchs
+Name[fr]=Renard de feu
+GenericName=Web Browser
+GenericName[de]=Webbrowser
+Comment=Browse the World Wide Web
+Exec=firefox %u
+Icon=firefox
+Terminal=false
+Categories=Network;WebBrowser;Browser;
+Keywords=web;internet;
+MimeType=text/html;application/xhtml+xml;
+StartupNotify=true
+StartupWMClass=firefox
+NotShowIn=GNOME;

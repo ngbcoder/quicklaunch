@@ -29,13 +29,13 @@ Raycast-style command launcher for Linux (KDE Plasma / Wayland first). Design de
 - [x] Record decision: raw KGlobalAccel works on Plasma 6.8 (no fallback needed)
 
 ## M2 — Desktop entry parser
-- [ ] Define `Entry` struct + grammar types
-- [ ] Parse `[Desktop Entry]` sections/keys with tests + fixtures
-- [ ] Localized keys (`Name[xx]`, best-effort locale) with tests
+- [x] Define `Entry` struct + grammar types
+- [x] Parse `[Desktop Entry]` sections/keys with tests + fixtures
+- [x] Localized keys (`Name[xx]`, best-effort locale) with tests
 - [ ] Exec field-code tokenizer (`%f %F %u %U %i %c %k %%`) with tests
-- [ ] Boolean/enum keys (`NoDisplay`, `Hidden`, `Terminal`, `Type`) with tests
+- [x] Boolean/enum keys (`NoDisplay`, `Hidden`, `Terminal`, `Type`) with tests
 - [ ] `OnlyShowIn`/`NotShowIn`/`TryExec` handling with tests
-- [ ] `[Desktop Action *]` sub-entries with tests
+- [x] `[Desktop Action *]` sub-entries with tests
 
 ## M3 — App index
 - [ ] Scanner for `/usr/share/applications` + `~/.local/share/applications` (fixtures + tests)

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Hidden App
+Exec=hidden-app
+NoDisplay=true
+Hidden=true

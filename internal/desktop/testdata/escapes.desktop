@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Escaped\sValue
+Comment=First\sLine\nSecond
+Exec=app "argument with spaces" --flag=value
+Categories=One;Two\;Three;
