@@ -17,7 +17,7 @@ Raycast-style command launcher for Linux (KDE Plasma / Wayland first). Design de
 - [x] Add .gitignore and README.md
 - [x] Init git repo (`main` branch)
 - [x] Install `github-cli` (needs `sudo pacman -S github-cli`)
-- [ ] `gh auth login` (user, interactive)
+- [x] `gh auth login` (user, interactive)
 - [ ] Set global git identity from GitHub account name + noreply email
 - [ ] Create public GitHub repo (`ngbcoder/quicklaunch` or account default) and push
 - [ ] Add GitHub Actions CI (vet, test, build with X11/Wayland dev packages)
