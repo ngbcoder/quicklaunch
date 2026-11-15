@@ -1,0 +1,14 @@
+# Binaries
+/quicklaunch
+/dist/
+
+# Go
+*.test
+*.out
+coverage.txt
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
