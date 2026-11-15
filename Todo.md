@@ -32,7 +32,7 @@ Raycast-style command launcher for Linux (KDE Plasma / Wayland first). Design de
 - [x] Define `Entry` struct + grammar types
 - [x] Parse `[Desktop Entry]` sections/keys with tests + fixtures
 - [x] Localized keys (`Name[xx]`, best-effort locale) with tests
-- [ ] Exec field-code tokenizer (`%f %F %u %U %i %c %k %%`) with tests
+- [x] Exec field-code tokenizer (`%f %F %u %U %i %c %k %%`) with tests
 - [x] Boolean/enum keys (`NoDisplay`, `Hidden`, `Terminal`, `Type`) with tests
 - [ ] `OnlyShowIn`/`NotShowIn`/`TryExec` handling with tests
 - [x] `[Desktop Action *]` sub-entries with tests
