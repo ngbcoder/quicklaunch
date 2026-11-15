@@ -38,11 +38,11 @@ Raycast-style command launcher for Linux (KDE Plasma / Wayland first). Design de
 - [x] `[Desktop Action *]` sub-entries with tests
 
 ## M3 — App index
-- [ ] Scanner for `/usr/share/applications` + `~/.local/share/applications` (fixtures + tests)
-- [ ] Flatpak export dirs (`~/.local/share/flatpak/exports/...`, `/var/lib/flatpak/exports/...`)
-- [ ] Precedence/dedupe by desktop-file-id (user dir wins)
-- [ ] Filter `NoDisplay`/`Hidden`/`Type != Application`
-- [ ] Index store with thread-safe access + reload
+- [x] Scanner for `/usr/share/applications` + `~/.local/share/applications` (fixtures + tests)
+- [x] Flatpak export dirs (`~/.local/share/flatpak/exports/...`, `/var/lib/flatpak/exports/...`)
+- [x] Precedence/dedupe by desktop-file-id (user dir wins)
+- [x] Filter `NoDisplay`/`Hidden`/`Type != Application`
+- [x] Index store with thread-safe access + reload
 
 ## M4 — Launcher
 - [ ] Detached `exec.Command` (setsid, working dir `$HOME`) with tests
